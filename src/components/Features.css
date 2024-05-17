@@ -1,0 +1,18 @@
+#feature-card-1 {
+  background-color: #a3e4d7;
+}
+#feature-card-1:hover {
+  background-color: #48c9b0;
+}
+#feature-card-2 {
+  background-color: #f5b7b1;
+}
+#feature-card-2:hover {
+  background-color: #ec7063;
+}
+#feature-card-3 {
+  background-color: #f9e79f;
+}
+#feature-card-3:hover {
+  background-color: #f5b041;
+}

@@ -1,0 +1,6 @@
+.product-image {
+  height: 150px;
+  overflow: hidden;
+  object-position: center;
+  object-fit: fill;
+}
