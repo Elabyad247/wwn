@@ -3,8 +3,8 @@ import "./Features.css";
 const Features = () => {
   return (
     <div className="container mt-1">
-      <div className="row mt-1 pt-5">
-        <div className="col-md-4">
+      <div className="row my-2 pt-5">
+        <div className="col-md-4 my-2">
           <div className="card">
             <div id="feature-card-1" className="card-body text-center">
               <i className="fas fa-shipping-fast fa-3x mb-3"></i>
@@ -16,7 +16,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 my-2">
           <div className="card">
             <div id="feature-card-2" className="card-body text-center">
               <i className="fas fa-shield-alt fa-3x mb-3"></i>
@@ -28,7 +28,7 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 my-2">
           <div className="card">
             <div id="feature-card-3" className="card-body text-center">
               <i className="fas fa-star fa-3x mb-3"></i>

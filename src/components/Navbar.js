@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart, faGhost } from "@fortawesome/free-solid-svg-icons";
 
-function Navbar() {
+function Navbar({ cart }) {
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -41,7 +41,7 @@ function Navbar() {
                   }}
                 >
                   <FontAwesomeIcon icon={faShoppingCart} size="lg" />
-                  <span className="ms-2">{0}</span>
+                  <span className="ms-2">{cart.length}</span>
                 </Link>
               </li>
             </ul>
